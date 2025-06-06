@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Box, Typography, TextField, Button } from "@mui/material";
 import toast from "react-hot-toast";
-import axios from "axios";
+import axios from "../axios"; // relative path
 const Register = () => {
   const navigate = useNavigate();
   //state

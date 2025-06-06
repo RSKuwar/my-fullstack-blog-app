@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import axios from "../axios"; // relative path
 import toast from "react-hot-toast";
 import { useNavigate, useParams } from "react-router-dom";
 import { Box, Button, InputLabel, TextField, Typography } from "@mui/material";
 const BlogDetails = () => {
   const [blog, setBlog] = useState({});
   const id = useParams().id;
-  
+
   const navigate = useNavigate();
   const [inputs, setInputs] = useState({});
   // get blog details

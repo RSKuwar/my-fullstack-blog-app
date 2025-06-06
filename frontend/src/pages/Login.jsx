@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Box, Typography, TextField, Button } from "@mui/material";
-import axios from "axios";
+import axios from "../axios"; // relative path
 import { useDispatch } from "react-redux";
 import { authActions } from "../redux/store.js";
 import toast from "react-hot-toast";

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import axios from "../axios"; // relative path
 import BlogCard from "../components/BlogCard.jsx";
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);

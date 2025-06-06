@@ -1,6 +1,5 @@
-
 import React, { useState } from "react";
-import axios from "axios";
+import axios from "../axios"; // relative path
 import { useNavigate } from "react-router-dom";
 import { Box, Button, InputLabel, TextField, Typography } from "@mui/material";
 import toast from "react-hot-toast";
